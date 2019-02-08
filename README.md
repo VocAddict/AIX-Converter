@@ -1,9 +1,9 @@
 # AIX-Converter
 A converter that generates IPA and X-SAMPA output from English text
 
-# A - Alphabet (to)
-# I - IPA (and)
-# X - X-SAMPA
+A - Alphabet (to)
+I - IPA (and)
+X - X-SAMPA
 
 This program is used to convert English text into IPA and X-SAMPA as the output. 
 It uses the English-to-IPA git from mphilli: https://github.com/mphilli/English-to-IPA
