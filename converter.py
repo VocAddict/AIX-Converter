@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+import re
+import sqlite3
 import subprocess
 import eng_to_ipa as ipa
 from itertools import zip_longest
