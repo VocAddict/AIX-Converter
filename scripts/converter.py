@@ -3,6 +3,7 @@
 import re
 import sqlite3
 import subprocess
+#import "..\externals\English-to-IPA\setup"
 import eng_to_ipa as ipa
 from itertools import zip_longest
 
