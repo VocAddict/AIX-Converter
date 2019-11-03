@@ -6,12 +6,12 @@ A converter that generates IPA and X-SAMPA output from English text
 * X - X-SAMPA
 
 This program is used to convert English text into IPA and X-SAMPA as the output. 
-It uses the English-to-IPA git from mphilli: https://github.com/mphilli/English-to-IPA
+It uses the English-to-IPA library from mphilli: https://github.com/mphilli/English-to-IPA
 
 # Prerequisites
 
 1. Python 3 must be used with SQL addons enabled for usage of the IPA converter (most binaries should come with this enabled by default)
-2. This package must also be installed for this program to work: https://github.com/mphilli/English-to-IPA
+2. This library must also be installed for this program to work: https://github.com/mphilli/English-to-IPA
     Installation of this package can be done with the command: 
         python3 setup.py install
 
