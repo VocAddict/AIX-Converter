@@ -191,11 +191,14 @@ if yn_start == 'y':
     print()
     input('Press "ENTER" to exit the program.')
     
-    if yn_start == "n":    
+elif yn_start == "n":    
         print()
-        print('Thank you for using AIX.')
-    else:    
+        print('Thank you for using AIX!')
+
+else:
         print()
-        yn_start = input('Please type in y or n: ').lower()
-        
+        print('Please try again later...')
+        input('Press "Enter" to continue')
+        print()
+	
 exit()
