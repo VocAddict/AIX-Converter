@@ -10,16 +10,16 @@ from itertools import zip_longest
 print('Welcome to the Alphabet to X-SAMPA Converter for the English Language, henceforth referred to as AIX.')
 print('AIX is used to convert any word in the English language and converts it IPA and X-SAMPA.')
 print()
-yn_start = input('Would you like to continue with this program or would you like to exit? (yes or no): ').lower()
+yn_start = input('Would you like to continue with this program or would you like to exit? (y or n): ').lower()
 
-if yn_start == 'yes':
+if yn_start == 'y':
     
     print()
     print('AIX is used to convert any word in the English language and converts it IPA and X-SAMPA. The steps are detailed below:')
     print('1) Read the corpus given in source.txt in the directory of this program.')
     print('2) Converts the corpus into IPA, which is stored in ipa.txt.')
     print('3) Converts IPA to X-SAMPA, which is stored in xs.txt.')
-    print('4) Joins all three files into one huge table-like directory for easy use, converted.txt.')
+    print('4) Joins all three files one file, separated by a delimited ";", dictionary.csv.')
     input('Press "ENTER" to continue...')
     print()
 
@@ -191,4 +191,11 @@ if yn_start == 'yes':
     print()
     input('Press "ENTER" to exit the program.')
     
+    if yn_start == "n":    
+        print()
+        print('Thank you for using AIX.')
+    else:    
+        print()
+        yn_start = input('Please type in y or n: ').lower()
+        
 exit()
