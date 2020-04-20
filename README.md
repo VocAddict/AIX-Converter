@@ -25,3 +25,6 @@ Three files would be created:
 * dictionary.csv (dictionary with source, ipa, and xs files separated by a delimiter)
 * ipa.txt (IPA conversion)
 * xs.txt (X-SAMPA conversion)
+
+# To-do
+1. Fix compatibility issues
