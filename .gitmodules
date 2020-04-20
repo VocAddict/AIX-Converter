@@ -1,0 +1,3 @@
+[submodule "English-to-IPA"]
+	path = English-to-IPA
+	url = https://github.com/VocAddict/English-to-IPA
