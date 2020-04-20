@@ -13,7 +13,7 @@ It uses the English-to-IPA library from mphilli: https://github.com/mphilli/Engl
 1. Python 3 must be used with SQL addons enabled for usage of the IPA converter (most binaries should come with this enabled by default)
 2. This command must be run before using the converter:
     Installation of this package can be done with the command: 
-        python -m pip install English-to-IPA/.
+    python -m pip install English-to-IPA/.
 
 # Usage
 
