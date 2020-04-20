@@ -11,15 +11,15 @@ It uses the English-to-IPA library from mphilli: https://github.com/mphilli/Engl
 # Prerequisites
 
 1. Python 3 must be used with SQL addons enabled for usage of the IPA converter (most binaries should come with this enabled by default)
-2. This library must also be installed for this program to work: https://github.com/mphilli/English-to-IPA
+2. This command must be run before using the converter:
     Installation of this package can be done with the command: 
-        python3 setup.py install
+        python -m pip install English-to-IPA/.
 
 # Usage
 
 1. Place the words you want to convert into the "source.txt" file, they must be line by line
 2. Run the command:
-    python3 converter.py
+    python converter.py
     
 Three files would be created:
 * dictionary.csv (dictionary with source, ipa, and xs files separated by a delimiter)
